@@ -1,4 +1,5 @@
 # hello-world
+
 ## hello-world
 
 [baidu](https://www.baidu.com)
@@ -7,9 +8,17 @@
 
 -----
 
-    # hello-world## hello-world
+    # hello-world
+    ## hello-world
     [baidu](https://www.baidu.com)
     ![baidu](https://www.baidu.com/img/bd_logo1.png)
     -----
-    
+
+_第一段：balabalabalabalabalabala  
+balabalabalabalabalabala_
+
+**第二段：balabalabalabalabalabalabalabalabalabalabalabala**
+
+~~第三段：balabalabalabalabalabalabalabalabalabalabalabala~~
+
 just another repository^_^

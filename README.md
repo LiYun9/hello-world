@@ -86,7 +86,7 @@ just another repository^_^
 
     `test`
     
-    [baidu](https://ww.baidu.com)
+    [baidu](https://ww.baidu.com)
     
     [![baidu](https://www.baidu.com/img/bd_logo1.png)](https://ww.baidu.com)
     

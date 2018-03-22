@@ -116,3 +116,16 @@ just another repository^_^
 + 无序
 
 有序和无序之间要分段或加分割线
+
+<style>
+.gc-comments {font-size: 12px;}
+</style>
+<script src="http://nimojs.github.io/github-comments/gc.js"></script>
+<div class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" >
+    <div class="gc-comments-title">
+        评论
+    </div>
+    <div class="gc-comments-info">
+        想在此留下评论，请访问 <a href="{{issues_link}}">{{issues_link}}</a> 提交评论
+    </div>
+</div>

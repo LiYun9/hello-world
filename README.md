@@ -129,3 +129,8 @@ just another repository^_^
         想在此留下评论，请访问 <a href="{{issues_link}}">{{issues_link}}</a> 提交评论
     </div>
 </div>
+
+在网页里加链接
+
+比如
+<a "https://www.baidu.com">baidu</a>

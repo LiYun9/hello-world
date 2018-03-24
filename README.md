@@ -117,22 +117,20 @@ just another repository^_^
 
 有序和无序之间要分段或加分割线
 <html>
-
 <body>
 <style>
 .gc-comments {font-size: 12px;}
 </style>
 <script src="http://nimojs.github.io/github-comments/gc.js"></script>
 <div class="gc-comments" data-repos="liyun9/test0" data-issues="1" >
-    <div class="gc-comments-title">
-        评论
-    </div>
-    <div class="gc-comments-info">
-        想在此留下评论，请访问 <a href="{{issues_link}}">{{issues_link}}</a> 提交评论
-    </div>
+<div class="gc-comments-title">
+评论
+</div>
+<div class="gc-comments-info">
+想在此留下评论，请访问 <a href="{{issues_link}}">{{issues_link}}</a> 提交评论
+</div>
 </div>
 </body>
-
 </html>
 
 ***********
@@ -141,22 +139,11 @@ just another repository^_^
 
 比如
 <html>
-
 <body>
-
-
-<h1>Hello World</h1>//一级标题书写形式
-
-
-<p>Hello World</p>
-
-
-
-
-<a href="https://www.baidu.com">baidu</a>//超链接的书写形式
-
+<h1>Hello World</h1><!-- 一级标题书写形式-->
+<p>Hello World</p><!-- 普通段落书写格式-->
+<a href="https://www.baidu.com">baidu</a><!-- 超链接的书写形式-->
 </body>
-
 </html>
 
 

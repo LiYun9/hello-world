@@ -133,4 +133,21 @@ just another repository^_^
 在网页里加链接
 
 比如
+<html>
+
+<body>
+
+
+<h1>Hello World</h1>
+
+
+<p>Hello World</p>
 <a "https://www.baidu.com">baidu</a>
+
+</body>
+
+</html>
+
+
+
+发现在这个文档里 只支持markdown。

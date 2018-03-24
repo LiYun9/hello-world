@@ -116,12 +116,14 @@ just another repository^_^
 + 无序
 
 有序和无序之间要分段或加分割线
+<html>
 
+<body>
 <style>
 .gc-comments {font-size: 12px;}
 </style>
 <script src="http://nimojs.github.io/github-comments/gc.js"></script>
-<div class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" >
+<div class="gc-comments" data-repos="liyun9/test0" data-issues="1" >
     <div class="gc-comments-title">
         评论
     </div>
@@ -129,6 +131,11 @@ just another repository^_^
         想在此留下评论，请访问 <a href="{{issues_link}}">{{issues_link}}</a> 提交评论
     </div>
 </div>
+</body>
+
+</html>
+
+***********
 
 在网页里加链接
 
@@ -138,15 +145,15 @@ just another repository^_^
 <body>
 
 
-<h1>Hello World</h1>
+<h1>Hello World</h1>//一级标题书写形式
 
 
 <p>Hello World</p>
 
 
-fork from <a href="https://github.com/nimojs/github-comments">https://github.com/nimojs/github-comments</a>
 
-<a "https://www.baidu.com"> baidu </a>
+
+<a href="https://www.baidu.com">baidu</a>//超链接的书写形式
 
 </body>
 
@@ -154,4 +161,4 @@ fork from <a href="https://github.com/nimojs/github-comments">https://github.com
 
 
 
-发现在这个文档里 只支持markdown。
+发现在这个文档里 还支持html

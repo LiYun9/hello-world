@@ -143,22 +143,15 @@ just another repository^_^
 
 <p>Hello World</p>
 
-<div >
 
 
-<a "https://www.baidu.com">baidu</a>
-</div >
+
+<a "https://www.baidu.com"> baidu </a>
+
 </body>
 
 </html>
 
-<html>
-<title>text<title>
-<body>
-<div >
-hello world
-</div >
-</body>
-</html> 
+
 
 发现在这个文档里 只支持markdown。

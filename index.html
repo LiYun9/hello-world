@@ -9,20 +9,53 @@
 <body>
     
     
-    
+    <!--以下是核心代码，可以在网页底部出现评论，非常神奇，套用了github网站的github-comments这个API-->
 <style>
 .gc-comments {font-size: 12px;}
 </style>
-<script src="gc.js"></script>
-<div class="gc-comments" data-repos="liyun9/test0" data-issues="1" >
+<script src="gc.js"></script><!--这个复制了nimojs/github-comments的js-->
+<div class="gc-comments" data-repos="liyun9/test0" data-issues="1" ><!--这个改下ID和项目名，和评论对应的#就成自己的了-->
     <div class="gc-comments-title">
         评论
     </div>
     <div class="gc-comments-info">
-        想在此留下评论，请访问 <a href="issues_link">issues_link</a> 提交评论
+        想在此留下评论，请访问 <a href="issues_link">issues_link</a> 提交评论<!--这里自动会出现完整的issues链接-->
     </div>
 </div>
 
+    <!--****************************************************************************************-->
+    
+    <!--以下是一个填空然后生成你填的人的评论列表的小程序-->
+    
+    <script>
+gc.$(function ($) {
+    var $Repos = $('#Repos')
+    var $Issues = $('#Issues')
+    var $Load = $('#Load')
+    var $win = $(window)
+    var $Top = $('#top')
+    $('#MainForm').on('submit', function () {
+        var $this = $(this)
+        $Load.html('')
+        gc.load($Repos.val(), $Issues.val(), $Load)
+        return false
+    })
+    var $bodyhtml = $('body,html')
+    $Top.on('click', function () {
+        $bodyhtml.animate({scrollTop:0},10);
+    })
+    $win.scroll(function(){
+        if ($(window).scrollTop()>100){
+            $Top.stop(false,true).fadeIn(1500);
+        }
+        else
+        {
+            $Top.stop(false,true).fadeOut(1500);
+        }
+    });
+})
+</script>
+    
     
     
 </body>

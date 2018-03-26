@@ -137,6 +137,10 @@ just another repository^_^
 
 在网页里加链接
 比如
+
+<body background="http://p5k7mvi7l.bkt.clouddn.com/1521920903206.jpg"><!--加背景图片-->
+    
+    不支持加背景图片，看来就是一个纯粹的文档
 <html>
 <body background="http://p5k7mvi7l.bkt.clouddn.com/1521920903206.jpg"><!--加背景图片-->
 <h1>Hello World</h1><!-- 一级标题书写形式-->

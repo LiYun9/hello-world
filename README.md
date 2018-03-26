@@ -138,7 +138,7 @@ just another repository^_^
 在网页里加链接
 比如
 <html>
-<body>
+<body background="http://p5k7mvi7l.bkt.clouddn.com/1521920903206.jpg"><!--加背景图片-->
 <h1>Hello World</h1><!-- 一级标题书写形式-->
 <p>Hello World</p><!-- 普通段落书写格式-->
 <a href="https://www.baidu.com">baidu</a><!-- 超链接的书写形式-->
@@ -147,7 +147,7 @@ just another repository^_^
 
 
     <html>
-    <body>
+    <body background="http://p5k7mvi7l.bkt.clouddn.com/1521920903206.jpg"><!--加背景图片-->
     <h1>Hello World</h1><!-- 一级标题书写形式-->
     <p>Hello World</p><!-- 普通段落书写格式-->
     <a href="https://www.baidu.com">baidu</a><!-- 超链接的书写形式-->
